@@ -18,12 +18,12 @@ public class Lab1 {
         System.out.println("Java");
     }
     static void task2(){
-        System.out.println((46+10) * (double)(10/3));
+        System.out.println((46+10) * (10 / 3d));
         System.out.println(29 * 4 * (-15));
     }
     static void task3(){
         int number = 10500;
-        int result = (number/10)/10;
+        double result = ((double) number / 10 / 10);
         System.out.println(result);
     }
     static void task4(){
